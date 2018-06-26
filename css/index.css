@@ -1,40 +1,195 @@
-.joytop{
-	width: 100%;
-	height: auto;
-	background: rgb(179, 0, 0);
+body {
+  font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, sans-serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\\5b8b体", sans-serif;
+  color: #666;
+  background: #f0f3ef;
+  height: 1000px;
 }
-.joytop_inner{
-	position: relative;
-	width: 1190px;
-	margin: 0 auto;
-	/*height: 80px;*/
+.joytop {
+  display: none;
+  width: 100%;
+  height: auto;
+  background: #b30000;
 }
-.joyimg{
-	display: block;
-	width: 100%;
-	height: 80px;
-	background: url(../images/5b14ef59N94c3126f.jpg) no-repeat 0 0;
+.joytop_inner {
+  position: relative;
+  width: 1190px;
+  margin: 0 auto;
+  /*height: 80px;*/
 }
-.active_618{
-	display: block;
-	width:180px;
-	height: 80px;
-	background: url(../images/5afcef16N7a7cc165.png) no-repeat 0 0
+.joyimg {
+  display: block;
+  width: 100%;
+  height: 80px;
+  background: url(../images/5b14ef59N94c3126f.jpg) no-repeat 0 0;
 }
-.joytop_list{
-	position: absolute;
-    top: 15px;
-    left: 910px;
-    width: 300px;
+.active_618 {
+  display: block;
+  width: 180px;
+  height: 80px;
+  background: url(../images/5afcef16N7a7cc165.png) no-repeat 0 0;
 }
-.joytop_item{
+.joytop_list {
+  position: absolute;
+  top: 15px;
+  left: 910px;
+  width: 300px;
+}
+.joytop_item {
+  float: left;
+  width: 116px;
+  height: 46px;
+  margin-right: 10px;
+}
+.joytop_item_lk {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.shortcut {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  background-color: #e3e4e5;
+}
+.w {
+  width: 1190px;
+  height: 30px;
+  line-height: 30px;
+  margin: auto;
+  color: #999;
+}
+.location {
+  border: 1px solid #e3e4e5;
+}
+.gps_div {
+  height: 28px;
+  line-height: 28px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-left: 200px;
+}
+.icon_gps {
+  margin-right: 4px;
+  color: #f10215;
+}
+.short_rt li {
+  float: left;
+}
+.spacer {
+  overflow: hidden;
+  margin: 11px 5px 0;
+  width: 1px;
+  height: 10px;
+  background-color: #ccc;
+}
+.dt {
+  padding: 0 7px;
+}
+.mouse_hover:hover {
+  color: #f10215;
+}
+.to_registor {
+  color: #f10215;
+  margin-left: 3px;
+}
+.item_type {
+  position: relative;
+}
+.item_type .dt {
+  position: relative;
+  z-index: 100;
+  border: 1px solid transparent;
+}
+.item_type .dt:hover {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+.item_type .sub_menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 280px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+.item_type .sub_menu li {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+}
+.my_jd .sub_menu li{
+	width: 126px;
+}
+.item_type .sub_menu li a:hover {
+  color: #f10215;
+}
+.menu_1 {
+  padding: 10px 0 10px 15px;
+}
+.menu_2 {
+  padding: 10px 0 10px 15px;
+  border-top: solid 1px #f1f1f1;
+}
+.company_buy .sub_menu{
+	width: 140px;
+}
+.company_buy .sub_menu li{
+	margin-right: 12px;
+}
+.item_type.cus_service .sub_menu{
+	left: auto;
+	right: 0;
+	width: 172px;
+  padding: 10px 0;
+}
+.list_title{
+	padding-left: 15px;
+	font-weight: 700;
+	color: #666;
+}
+.item_type .sub_menu .list_item{
 	float: left;
-    width: 116px;
-    height: 46px;
-    margin-right: 10px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 15px;
 }
-.joytop_item_lk{
-	display: block;
-    width: 100%;
-    height: 100%;
+.item_type .sub_menu .list_item a:hover{
+	color: #f10215;
+}
+.web_nav .sub_menu{
+	left: auto;
+	right: -84px;
+  width: 1188px;
+  padding: 15px 0;
+}
+.web_nav .sub_menu dl{
+	float: left;
+}
+.web_nav .sub_menu .fore_1{
+	border-left: none;
+  width: 340px;
+}
+
+.web_nav .sub_menu  .list_item{
+	overflow: hidden;
+	float: left;
+	width: 85px;
+	white-space: nowrap;
+}
+.web_nav .sub_menu .fore_2,.web_nav .sub_menu .fore_3,.web_nav .sub_menu .fore_4{
+	width: 276px;
+  padding-left: 20px;
+  border-left: 1px solid #eee;
 }
