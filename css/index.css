@@ -62,6 +62,10 @@ body {
 }
 .w {
   width: 1190px;
+  margin: 0 auto;
+}
+.shortcut_box{
+	width: 1190px;
   height: 30px;
   line-height: 30px;
   margin: auto;
@@ -258,6 +262,8 @@ body {
 	font-size: 20px;
 	font-weight: 700;
 	color: #fff;
+	outline: none;
+	cursor: pointer;
 }
 .ser_cam{
 	position: absolute;
@@ -375,4 +381,98 @@ body {
 	background-color: #ccc;
 }
 
-
+.module_1{
+	
+}
+.menu_box{
+	float: left;
+	padding: 10px 0;
+	margin-right: 10px;
+	width: 190px;
+	height: 480px;
+	background-color: #fefefe;
+	color: #636363;
+}
+.menu_item{
+	height: 27px;
+	line-height: 27px;
+	padding-left: 18px;
+	color: #626262;
+	font-size: 14px;
+}
+.menu_item a:hover{
+	color: #e33333;
+}
+.menu_item:hover{
+	background-color: #d9d9d9;
+}
+.cutline{
+	font-size: 12px;
+}
+.poster{
+	float: left;
+	width: 590px;
+	height: 480px;
+	margin-right: 10px;
+}
+.poster_focus{
+	margin-top: 10px;
+}
+.min_poster{
+	float: left;
+	margin-right: 10px;
+}
+.rec_item{
+	margin-top: 10px;
+	transition: opacity .1s ease;
+}
+.rec_item:hover{
+	opacity: 0.8;
+}
+.rec_item a{
+	display: block;
+}
+.rec_item img{
+	display: block;
+}
+.info_box{
+	float: left;
+	margin-top: 10px;
+	width: 190px;
+	height: 480px;
+	background: #fff;
+}
+.user_info{
+	position: relative;
+	width: 190px;
+	height: 150px;
+	padding-top: 62px;
+	text-align: center;
+}
+.user_logo{
+	position: absolute;
+	left: 50%;
+	top: -10px;
+	margin-left: -34px;
+	display: block;
+	width: 65px;
+  height: 65px;
+	border: 5px solid #e3e1df;
+	border-radius: 50%;
+	box-shadow: 3px 6px 25px #c3c3c3;
+}
+.user_logo img{
+	display: block;
+	width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  border-radius: 50%; 
+}
+.logo_reg a:hover{
+	color: #c81623;
+}
+.user_profit{
+	margin-top: 10px;
+	height: 25px;
+	font-size: 0;
+}
