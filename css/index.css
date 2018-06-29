@@ -468,6 +468,9 @@ body {
   margin: 0 auto;
   border-radius: 50%; 
 }
+.logo_reg{
+	margin-top: 4px;
+}
 .logo_reg a:hover{
 	color: #c81623;
 }
@@ -475,4 +478,128 @@ body {
 	margin-top: 10px;
 	height: 25px;
 	font-size: 0;
+}
+.user_profit_lk{
+	display: inline-block;
+	margin: 0 5px;
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	text-align: center;
+	color: #e43f3b;
+	border-radius: 13px;
+	box-shadow: 6px 8px 20px rgba(45,45,45,.15);
+	transition: background .3s ease,color .3s ease;
+}
+.user_profit_lk:hover{
+	background-color: #e01222;
+  color: #fff;
+}
+.user_profit_lk_plus{
+	background: #363634;
+	color: #e5d790;
+}
+.j_news{
+	position: relative;
+	width: 190px;
+	height: 130px;
+	padding-top: 8px;
+	line-height: 13px;
+}
+.mod_tab_head_item{
+	font-size: 12px;
+	color: #333;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-right: 1px solid #dfe0e1;
+}
+.gonggao{
+	border: none;
+}
+.news_more{
+	position: absolute;
+	right: 12px;
+	top: 8px;
+	font-size: 12px;
+}
+.news_more:hover{
+	color: #e01222;
+}
+.new_list{
+	padding-top: 8px;
+	margin: 0 15px;
+	height: 96px;
+}
+.new_item{
+	line-height: 22px;
+	max-width: 160px;
+	_width: 160px;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #666;
+}
+.new_item a:hover{
+	color: #e01222;
+}
+.some_ser{
+	padding: 0px 11px;
+}
+.ser_box{
+	padding-top: 18px;
+	border-top: 1px solid #ddd;
+}
+.ser_item{
+	float: left;
+	width: 42px;
+	padding-top: 7px;
+	text-align: center;
+}
+.ser_item a{
+	display: block;
+}
+.ser_icon{
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin-left: 11px;
+	background: url(../images/tb_1.png) no-repeat 0 0;
+}
+.ser_2{
+	background: url(../images/tb_2.png) no-repeat 0 0;
+}
+.ser_3{
+	background: url(../images/tb_3.png) no-repeat 0 0;
+}
+.ser_4{
+	background: url(../images/tb_4.png) no-repeat 0 0;
+}
+.ser_5{
+	background: url(../images/tb_5.png) no-repeat 0 0;
+}
+.ser_6{
+	background: url(../images/tb_6.png) no-repeat 0 0;
+}
+.ser_7{
+	background: url(../images/tb_7.png) no-repeat 0 0;
+}
+.ser_8{
+	background: url(../images/tb_8.png) no-repeat 0 0;
+}
+.ser_9{
+	background: url(../images/tb_9.png) no-repeat 0 0;
+}
+.ser_10{
+	background: url(../images/tb_10.png) no-repeat 0 0;
+}
+.ser_11{
+	background: url(../images/tb_11.png) no-repeat 0 0;
+}
+.ser_12{
+	background: url(../images/tb_12.png) no-repeat 0 0;
+}
+.ser_name{
+	color: #bea68d;
 }
